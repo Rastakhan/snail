@@ -1,0 +1,110 @@
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /** Reset para REMS - 62.5% = 10px de 16px*/
+}
+
+body {
+    background: orange;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.main-container {
+    display: flex;
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 1.8rem;
+}
+
+.main-container h1 {
+    font-size: 5rem;
+}
+
+.main-container button {
+    width: 90%;
+    margin: 1rem 0;
+    font-size: 2rem;
+}
+
+.hero,
+.data,
+.game,
+.score,
+.finishc {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.data,
+.game,
+.score,
+.finishc {
+    display: none;
+}
+
+.form-data input {
+    margin: 1rem 0;
+    font-size: 2rem;
+    width: 100%;
+}
+
+.game span {
+    font-style: italic;
+}
+
+.game li {
+    margin: .5rem 0;
+    font-size: 1.8rem;
+    width: 100%;
+}
+
+.score li {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.titles {
+    font-weight: 700;
+}
+
+.playern {
+    font-style: italic;
+}
+
+.finishc {
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.finishc div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+}
+
+.finishc span {
+    width: 100%;
+}
